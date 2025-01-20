@@ -3,6 +3,7 @@
     "stdbool.h": "c",
     "stdio.h": "c",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "type_traits": "c"
   }
 }
