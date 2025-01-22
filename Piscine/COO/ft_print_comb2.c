@@ -22,7 +22,12 @@ void ft_print_comb2(void){
                     write(1, "-", 1 );
                     write(1, &second[0], 1);
                     write(1, &second[1], 1);
-                    write(1, ", ", 2 );
+                    
+                    if (!(first[0] == '9' && first[1] == '8' && second[0]=='9' && second[1] == '9'))
+                    {
+                        write(1, ", ", 2 );
+                    }
+                    
                     second[1]++;
                 }
                 second[0]++;
